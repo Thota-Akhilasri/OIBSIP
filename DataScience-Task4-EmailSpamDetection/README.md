@@ -1,8 +1,8 @@
  Task 4 - Email Spam Detection with Machine Learning
 
-📌 Objective
+##📌 Objective :
        The objective of this project is to build a Machine Learning model that classifies emails/messages as **Spam** or **Ham (Legitimate)** using Natural Language Processing (NLP) techniques.
-🛠️ Technologies Used
+##🛠️ Technologies Used :
     - Python
     - Pandas
     - NumPy
@@ -11,12 +11,12 @@
     - Scikit-learn
     - NLTK
     - Regular Expressions (re)
-📂 Dataset
+##📂 Dataset :
     - SMS Spam Collection Dataset
     - Contains two classes:
     - Ham (Legitimate messages)
     - Spam (Unwanted messages)
-🔄 Project Workflow
+##🔄 Project Workflow :
     1. Import required libraries.
     2. Load the dataset.
     3. Explore the dataset and check class distribution.
@@ -33,11 +33,11 @@
       - F1-Score
       - Confusion Matrix
     9. Compare the performance of both models.
-📊 Results
+##📊 Results :
      - Both models successfully classified spam and ham messages.
      - Multinomial Naive Bayes achieved around **97% accuracy**.
      - Logistic Regression achieved around **95% accuracy**.
      - Naive Bayes performed slightly better on this dataset.
 
-✅ Conclusion
+##✅ Conclusion :
      This project demonstrates how NLP and Machine Learning can effectively detect spam messages. After preprocessing the text and applying TF-IDF vectorization, both models produced high accuracy. The results show that Machine Learning can automatically identify spam messages and help improve email filtering systems.
